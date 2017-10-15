@@ -118,7 +118,7 @@ function setupUse(params) {
 
   var postToServer= function(){
     $.post(constants.SERVER_URL, sendToServerResults)
-    .done(function(){//alert("success")})
+    .done(function(){alert("success")})
     .error(function (error) {
       console.log(error);
     }).always(function () {
